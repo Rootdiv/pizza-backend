@@ -6,9 +6,10 @@ const path = require('path');
 
 const options = {};
 if (protocol === 'https') {
+  const domain = 'rootdiv.ru';
   const certDir = '/etc/nginx/acme.sh';
-  options['key'] = readFileSync(`${certDir}/rootdiv.ru/privkey.pem`);
-  options['cert'] = readFileSync(`${certDir}/rootdiv.ru/fullchain.pem`);
+  options['key'] = readFileSync(`${certDir}/${domain}/privkey.pem`);
+  options['cert'] = readFileSync(`${certDir}/${domain}/fullchain.pem`);
 }
 
 // файл для базы данных
