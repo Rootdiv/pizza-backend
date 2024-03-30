@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 2010;
 // префикс URI для всех методов приложения
 const URI_PREFIX = '/pizzas';
 
+const domain = process.env.PROD === 'true' ? 'https://api.rootdiv.ru' : `http://localhost:${PORT}`;
+
 class ApiError extends Error {
   constructor(statusCode, data) {
     super();
@@ -74,7 +76,16 @@ const pagination = (goods, count = 4, page = 1) => {
 
 const getPizzas = params => {
   const data = JSON.parse(readFileSync(DB_FILE) || '[]');
-  const sortedData = sortByAndSearch(data.pizzas, params);
+  // Меняем меняем путь к картинке из базы данных
+  const dataPizzas = data.pizzas.map(item => {
+    const imageUrl = `${domain}${URI_PREFIX}/images/${item.imageUrl}`;
+    return {
+      ...item,
+      imageUrl,
+    };
+  });
+
+  const sortedData = sortByAndSearch(dataPizzas, params);
   if (params.limit) {
     return pagination(sortedData, params.limit, +params.page);
   }
@@ -123,6 +134,15 @@ createServer(async (req, res) => {
       const [key, value] = piece.split('=');
       queryParams[key] = value ? decodeURIComponent(value) : '';
     }
+  }
+
+  if (uri.includes('images')) {
+    const filePath = '.' + req.url.substring(URI_PREFIX.length);
+    const image = readFileSync(filePath);
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'image/jpeg');
+    res.end(image);
+    return;
   }
 
   try {

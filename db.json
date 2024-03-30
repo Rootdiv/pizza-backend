@@ -2,7 +2,7 @@
   "pizzas": [
     {
       "id": 0,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "imageUrl": "11ee7d612fc7b7fca5be822752bee1e5.jpg",
       "title": "Пепперони Фреш с перцем",
       "types": [
         0,
@@ -19,7 +19,7 @@
     },
     {
       "id": 1,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "imageUrl": "11ee7d610d2925109ab2e1c92cc5383c.jpg",
       "title": "Сырная",
       "types": [
         0
@@ -34,7 +34,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "imageUrl": "11ee7d6110059795842d40396bcf1e73.jpg",
       "title": "Цыпленок барбекю",
       "types": [
         0
@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "imageUrl": "11ee7d610e8bbb248f31270be742b4bd.jpg",
       "title": "Кисло-сладкий цыпленок",
       "types": [
         1
@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "imageUrl": "11ee7d61698827ee9b8db6d0aec53410.jpg",
       "title": "Чизбургер-пицца",
       "types": [
         0,
@@ -82,7 +82,7 @@
     },
     {
       "id": 5,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+      "imageUrl": "11ee7d6122bb3424b593bb15eace3197.jpg",
       "title": "Крэйзи пепперони",
       "types": [
         0
@@ -97,7 +97,7 @@
     },
     {
       "id": 6,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "imageUrl": "11ee7d610a62d78598406363a9a8ad65.jpg",
       "title": "Пепперони",
       "types": [
         0,
@@ -114,7 +114,7 @@
     },
     {
       "id": 7,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "imageUrl": "11ee7d6105ef6690b86fbde6150b5b0c.jpg",
       "title": "Маргарита",
       "types": [
         0,
@@ -131,7 +131,7 @@
     },
     {
       "id": 8,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+      "imageUrl": "11ee7d611adf5aad898b8b651186e023.jpg",
       "title": "Четыре сезона",
       "types": [
         0,
@@ -148,7 +148,7 @@
     },
     {
       "id": 9,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+      "imageUrl": "11ee7d61546d8483a61a0bbaa7adcc78.jpg",
       "title": "Овощи и грибы 🌱",
       "types": [
         0,
