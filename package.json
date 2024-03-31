@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Перед запуском убедитесь, что установлен Node.js версии 16 или выше.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index"
   },

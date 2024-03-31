@@ -1,0 +1,11 @@
+{
+  "name": "pizza",
+  "script": "index.js",
+  "watch": [
+    "modules",
+    "index.js"
+  ],
+  "env": {
+    "PROD": true
+  }
+}
